@@ -6,7 +6,10 @@ H2 [Home](http://h2database.com/html/main.html)
 How to start the server in H2.
 ----------------------------------
 
-`# java -cp /opt/h2/bin/h2*.jar org.h2.tools.Server -tcp -tcpPort 9101 -tcpAllowOthers -baseDir /var/lib/h2/data`
+```
+# java -cp /opt/h2/bin/h2*.jar org.h2.tools.Server \
+  -tcp -tcpPort 9101 -tcpAllowOthers -baseDir /var/lib/h2/data
+```
 
 
 How to start a client shell in H2.
