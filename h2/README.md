@@ -19,4 +19,4 @@ How to start a client shell in H2.
 
 Enter a URL with appropriate IP address when prompted:   
 
-`jdbc:h2:tcp:192.168.000.001:9101/tpcdi`
+`jdbc:h2:tcp:192.168.001.001:9101/tpcdi`
